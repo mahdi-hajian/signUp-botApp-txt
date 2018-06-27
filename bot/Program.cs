@@ -15,7 +15,8 @@ namespace bot
 {
     class Program
     {
-        
+        private static TelegramBotClient Bot = new TelegramBotClient("");
+        private static TelegramBotClient MainBot = new TelegramBotClient("");
         public static List<ChatLog> ChatLogs;
         static void Main(string[] args)
         {
